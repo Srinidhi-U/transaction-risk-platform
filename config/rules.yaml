@@ -1,0 +1,34 @@
+# Analyst-tunable thresholds and point weights.
+# Streamlit sidebar sliders override these at run time without editing code.
+
+high_amount_threshold: 2000
+high_amount_points: 25
+
+night_start_hour: 22
+night_end_hour: 6
+night_online_points: 20
+
+high_risk_countries:
+  - NG
+  - RU
+  - KP
+high_risk_country_points: 20
+
+risky_categories:
+  - gift_cards
+  - crypto
+  - gambling
+risky_category_points: 15
+
+velocity_count: 4
+velocity_points: 20
+
+country_change_points: 15
+
+near_duplicate_minutes: 5
+
+anomaly_max_bonus: 30
+
+medium_cutoff: 40
+high_cutoff: 70
+
