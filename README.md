@@ -2,6 +2,10 @@
 
 **Author:** Uppula Srinidhi
 
+**Live application:** [Open the Transaction Risk Platform](https://transaction-risk-platform-rgdaw9whaw3tjzmsjh4lfm.streamlit.app/)
+
+**GitHub repository:** [Srinidhi-U/transaction-risk-platform](https://github.com/Srinidhi-U/transaction-risk-platform)
+
 A small assignment app that scores payment rows as soon as you upload a CSV. It is not connected to a live bank feed. “Real-time” here means: validate, score, and explain each valid row in one pass after the file is read.
 
 Scores are **explanations for a reviewer**, not a fraud verdict.
